@@ -1,6 +1,6 @@
 /*! HTML5 Boilerplate v9.0.1 | MIT License | https://html5boilerplate.com/ */
 
-/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/* main.myCSS 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -245,3 +245,86 @@ textarea {
   }
 }
 
+/*
+MY EDITS
+*/
+body{
+  overflow: hidden;
+  background-color: #FFB6C1;
+  margin: 0;
+}
+
+/*
+Making Heart go up and down
+ */
+#letter {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+  }
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+  }
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+  }
+
+/*
+ARROW ANIMATION
+ */
+#arrow {
+  position: absolute;
+  top: 50%;
+  left: -100px;
+
+  transform: translateY(-50%);
+  transition: transform 0.8s ease-out, left 0.8s ease-out;
+}
+
+/*
+CUPID
+ */
+#cupid {
+  position: absolute;
+  top: 50%;
+  left: -100px;
+
+  transform: translateY(-50%);
+  transition: transform 0.8s ease-out, left 0.8s ease-out;
+}
+
+/*
+CUPID TEXT
+ */
+#cupid-text{
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: 3px solid white;
+  padding: 20px;
+  font-family: 'Courier New', monospace;
+  display: block;
+}
+
+/*
+Chloe :)
+ */
+#girl {
+
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}

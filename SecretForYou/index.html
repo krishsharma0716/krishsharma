@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="myCSS/style.css">
   <meta name="description" content="">
 
   <meta property="og:title" content="">
@@ -22,12 +22,32 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
 
+
+<body>
 <!-- Add your site or application content here -->
 
+<!-- INTRO SCREEN -->
+  <div id="intro">
+    <!--Heart Image and Arrow and Cupid-->
+    <img src="pixelheart.png" id = "letter" style="width:70px;height:70px;" onclick = "myfunc()">
+    <img src="arrow.png" id = "arrow" >
+    <img src="cupid.png" id = "cupid" style = "width:100px;height:100px;" >
+    <img src="girl.png" id = "girl" style = "width:70px;height:70px;display: none" >
+  </div>
+
+<!-- GAME SCREEN -->
+  <div id="game">
+
+  </div>
+
+<!-- cupid text -->
+<div id = "cupid-text" class = "hidden">
+  <p id = "text1">Chloe, will you be my valentines?</p>
+</div>
+
+  <canvas id="canvas"></canvas>
+  <script src="js/app.js"></script>
 </body>
-
-
 
 </html>
