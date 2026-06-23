@@ -245,9 +245,12 @@ textarea {
   }
 }
 
-/*
-MY EDITS
-*/
+/*-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+/
+/ MY CODE
+/
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-*/
+
 body{
   overflow: hidden;
   background-color: #FFB6C1;
@@ -255,7 +258,8 @@ body{
 }
 
 /*
-Making Heart go up and down
+  Making Heart go up and down
+  Uses webkit and keyframes to move and loop through every second for the animation
  */
 #letter {
   position: absolute;
@@ -278,6 +282,7 @@ Making Heart go up and down
 
 /*
 ARROW ANIMATION
+Used in javascript file for when the arrow comes in
  */
 #arrow {
   position: absolute;
@@ -321,7 +326,6 @@ CUPID TEXT
 Chloe :)
  */
 #girl {
-
   position: absolute;
   bottom: 20px;
   left: 50%;
